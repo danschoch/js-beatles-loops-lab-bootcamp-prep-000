@@ -15,5 +15,10 @@ function johnLennonFacts (facts) {
     loudFacts[i] = `${facts[i]}!!!`;
     ++i;
   }
-  return loudFacts
+  return loudFacts;
+}
+
+function iLoveTheBeatles (n) {
+  var arr = [];
+  
 }
