@@ -15,4 +15,5 @@ function johnLennonFacts (facts) {
     loudFacts[i] = `${facts[i]} !!!`;
     ++i;
   }
+  return loudFacts
 }
