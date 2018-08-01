@@ -12,6 +12,6 @@ function johnLennonFacts (facts) {
   var i = 0
   
   while (loudFacts.length <= facts.length) {
-    loudFacts[i] 
+    loudFacts[i] = `${facts[i] !!!"
   }
 }
