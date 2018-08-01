@@ -11,7 +11,7 @@ function johnLennonFacts (facts) {
   var loudFacts = [];
   var i = 0;
   
-  while (loudFacts.length <= facts.length) {
+  while (loudFacts.length < facts.length) {
     loudFacts[i] = `${facts[i]} !!!`;
     ++i;
   }
